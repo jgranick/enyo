@@ -1,0 +1,6 @@
+<project name="enyo" url="http://www.joshuagranick.com" license="BSD">
+    <user name="elyon"/>
+    <tag v="js"/>
+    <description>Provides support for Enyo in Javascript applications</description>
+    <version name="1.09">Improves support for haxe 2.08</version>
+</project>
