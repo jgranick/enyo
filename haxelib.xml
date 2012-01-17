@@ -1,6 +1,6 @@
-<project name="enyo" url="http://www.joshuagranick.com" license="BSD">
+<project name="enyo" url="http://www.joshuagranick.com" license="MIT">
     <user name="elyon"/>
     <tag v="js"/>
     <description>Provides support for Enyo in Javascript applications</description>
-    <version name="1.10">Fixed the type of the "service" property in BasicService</version>
+    <version name="1.11">Fixed license</version>
 </project>
