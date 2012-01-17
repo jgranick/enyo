@@ -11,7 +11,7 @@ class BasicService extends Component {
 	/**
 	The name of the service. This information is delegated to the Request component.
 	*/
-	public var service:Bool;
+	public var service:String;
 	/**
 	The timeout, specified in milliseconds, after which the service should return a failure condition. 
 	If a request times out, the request object will have its didTimeout property set to true.
@@ -45,10 +45,10 @@ class BasicService extends Component {
 extern class BasicServiceInstance extends ComponentInstance {
 	
 	
-	public function getService ():Bool {}
+	public function getService ():String {}
 	public function getTimeout ():Int {}
 	
-	public function setService (value:Bool):Void {}
+	public function setService (value:String):Void {}
 	public function setTimeout (value:Int):Void {}
 	
 	public function doSuccess ():Void {}
