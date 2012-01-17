@@ -2,5 +2,5 @@
     <user name="elyon"/>
     <tag v="js"/>
     <description>Provides support for Enyo in Javascript applications</description>
-    <version name="1.11">Fixed license</version>
+    <version name="1.12">Added missing "caption" property to the MenuItem class</version>
 </project>

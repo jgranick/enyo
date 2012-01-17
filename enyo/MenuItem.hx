@@ -8,6 +8,7 @@ import enyo.Control;
 class MenuItem extends Control {
 	
 	
+	public var caption:String;
 	public var disabled:Bool;
 	public var hideIcon:Bool;
 	public var icon:String;
@@ -17,6 +18,7 @@ class MenuItem extends Control {
 	
 	public function new (properties:Dynamic/*MenuItem*/ = null) {
 		
+		untyped __js__ ("this.caption = undefined");
 		untyped __js__ ("this.disabled = undefined");
 		untyped __js__ ("this.hideIcon = undefined");
 		untyped __js__ ("this.icon = undefined");
@@ -36,6 +38,7 @@ class MenuItem extends Control {
 @:native ("enyo.MenuItem")
 extern class MenuItemInstance extends ControlInstance {
 	
+	public function getCaption ():String {}
 	public function getDisabled ():Bool {}
 	public function getHideIcon ():Bool {}
 	public function getIcon ():String {}
@@ -43,6 +46,7 @@ extern class MenuItemInstance extends ControlInstance {
 	public function getOrderStyle ():String {}
 	public function getValue ():Dynamic {}
 	
+	public function setCaption (value:String):Void {}
 	public function setDisabled (value:Bool):Void {}
 	public function setHideIcon (value:Bool):Void {}
 	public function setIcon (value:String):Void {}
